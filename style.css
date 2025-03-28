@@ -1,0 +1,159 @@
+body {
+    background-image: url('/beställningskortet/images/bg-l.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'open sans';
+
+}
+
+p {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.flex-container {
+    background-color: white;
+    height: 630px;
+    width: 475px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0px rgb(182, 182, 182);
+}
+
+.hero-image {
+    width: 100%;
+    object-fit: cover;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.img-container {
+    height: 30%;
+    overflow: hidden;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+.text-container {
+    text-align: center;
+    padding: 0px 90px;
+}
+
+.subscription-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 0px 15px;
+    background-color: #ADB3BD;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.circle1 {
+    background-color: #84949E;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle2 {
+    background-color: #4B5C74;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.buy-button {
+    width: 80%;
+    padding: 15px 15px;
+    background-color: #4B5C74;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+    box-shadow: 0 0 10px 2px rgb(182, 182, 182);
+    transition: all 0.3s;
+}
+
+
+.cancel-button {
+    color: #ADB3BD;
+    transition: all 0.3s;
+}
+
+.change {
+    text-decoration: underline;
+    font-weight: 300;
+    transition: all 0.3s;
+}
+
+/* La in cursor: pointer så man ser att det går att klicka på. I active state exemplet har den inte pointer: cursor men tyckte detta var mer tydligt */
+
+.change p:hover {
+    color: #516B90;
+    cursor: pointer;
+}
+
+.cancel-button:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #516B90;
+    cursor: pointer;
+}
+
+.plan {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0px;
+}
+
+.plan p {
+    margin: 0px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .flex-container {
+        width: 375px;
+    }
+
+    .text-container {
+        padding: 0px 15px;
+    }
+
+    body {
+        background-image: url('/beställningskortet/images/bg-s.png');
+    }
+    
+}
