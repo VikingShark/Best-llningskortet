@@ -1,5 +1,5 @@
 body {
-    background-image: url('/beställningskortet/images/bg-l.png');
+    background-image: url('../images/bg-l.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -153,7 +153,7 @@ h1 {
     }
 
     body {
-        background-image: url('/beställningskortet/images/bg-s.png');
+        background-image: url('../images/bg-s.png');
     }
     
 }
